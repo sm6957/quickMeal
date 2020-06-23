@@ -1,0 +1,106 @@
+
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="/css/style.css">
+  <link type="text/css" rel="stylesheet" href="/css/styleLoginRegister.css">
+</head>  
+
+  <div class="wrapper fadeInDown" style="background-color: #a6a1f7;">
+    <div id="formContent">
+        <div class="fadeIn first">
+          <h1 id="title">QuickMeal</h1>
+        <img src="logo.png" id="icon" alt="User Icon" />
+      </div>
+      <form action="/register" method="POST" style="width: 450px;" >
+        <div class="container">
+          <p style="margin-top: 120px;">Please fill in this form to create an account.</p>
+          <hr>
+          <div>
+            <input type="text" id="login" name="fname" class="fadeIn second"  placeholder="First Name" required>
+          </div>
+          <div>
+            <input type="text" id="login" name="lname" class="fadeIn second"  placeholder="Last Name" required>
+          </div>
+          <div>
+            <input type="text" id="login" name="university" class="fadeIn second"  placeholder="University" required>
+          </div>
+          <div>
+            <input type="text" id="login" name="email" class="fadeIn second"  placeholder="Email" required>
+          </div>
+          <div>
+            <input type="text" id="login" name="username" class="fadeIn second"  placeholder="User ID" required>
+          </div>
+          <div>
+            <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password" required>
+          </div>
+          <div>
+              <input type="text" id="campusCash" name="campusCash" placeholder="Campus Cash" required>
+            </div>
+            <br>
+          <div>
+            <label for="fallMealName">Fall Meal Plan</label>
+            <select id="fallMealName" name="fallMealName">
+              <option value="300-flex-plus">300 Flex PLUS</option>
+              <option value="300-flex">300 Flex</option>
+              <option value="225-flex-plus">225 Flex PLUS</option>
+              <option value="225-flex">225 Flex</option>
+            </select>
+          </div>
+          <br>
+          <div>
+            <label for="springMealName">Spring Meal Plan</label>
+            <select id="springMealName" name="springMealName">
+              <option value="300-flex-plus">300 Flex PLUS</option>
+              <option value="300-flex">300 Flex</option>
+              <option value="225-flex-plus">225 Flex PLUS</option>
+              <option value="225-flex">225 Flex</option>
+            </select>
+          </div>
+          <br>
+          <a href="/logout"><input type="submit" class="fadeIn fourth" value="Register"></a>
+          <a href="/login"><input type="button" class="fadeIn fourth" value="Login"></a>
+        </form>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

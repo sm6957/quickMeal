@@ -1,0 +1,85 @@
+
+<head>
+
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+    
+    <body style="background-color:#9693c2;">
+    <div class="allAccountInfo">
+        <div class="Column">Meal Swipes
+          <h1> <%= meal %></h1>
+        </div>
+        <div class="Column">Dining Dollars
+        <h1>$<%= diningDollars %></h1>
+      </div>
+        <div class="Column">Campus Cash
+          <h1>$<%= cc %></h1>
+        </div>
+    </div>
+    
+    <div class="allAccountInfo1">
+    <div class="send">
+      <h2 style="color: rgb(255, 255, 255); text-align: center;"> Direct Send</h2>
+      <form action="" method="POST">
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" class="form-control" name = "yemail" id="yemail"  placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="email">Reciever's Email</label>
+          <input type="email" class="form-control" name = "email" id="email"  placeholder="Enter email">
+        </div>
+        <div>
+          <label for="mealtype">Type </label>
+          <br>
+          <select id="mealtype" name="mealtype">
+            <option value="none">--</option>
+            <option value="dining-dollars">Dining Dollars</option>
+            <option value="meal-swipes">Meal Swipes</option>
+       
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="amount">Amount</label>
+          <input type="text" class="form-control" name = "amount" id="amount" placeholder="Enter Amount">
+        </div>
+        <input type="text" id="donate_id" name="send_type_send" value="Send" disabled>
+       <br>
+       <br>
+        <button type="submit" class="btn btn-primary" style="background-color: #e9e8f9; border: none; color: black;">Submit</button>
+      
+      </form>
+    
+    </div>
+    
+    <div class="donate">
+      <h2 style="color: rgb(255, 255, 255);text-align: center;">Donate</h2>
+      <form action="" method="POST">
+        <div>
+          <label for="mealtype">Type </label>
+          <br>
+          <select id="mealtype" name="mealtype">
+            <option value="none">--</option>
+            <option value="dining-dollars">Dining Dollars</option>
+            <option value="meal-swipes">Meal Swipes</option>
+       
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="amount">Amount</label>
+          <input type="text" class="form-control" id="amount" name="amount" placeholder="Enter Amount">
+        </div>  
+        <input type="text" id="send_id" name="send_type_donate" value="Donate" disabled>
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary" style="background-color: #e9e8f9; border: none; color: black;">Submit</button>
+      </form>
+    </form>
+    </div>
+    </div>
+  
+    <a href="/logout" ><button type="submit" style="margin-bottom:30px; margin-left: 30px;">Logout</button></a>
+    </body>
+    

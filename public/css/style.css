@@ -1,0 +1,85 @@
+body{
+  background-color:#827ec2;
+}
+
+.allAccountInfo {
+  margin-top: 20px;
+  height: 200px;
+  display: table;
+  width: 100%; 
+  table-layout: fixed; 
+  border-spacing: 30px; 
+  background-color: #071049;
+}
+
+.allAccountInfo1 {
+  margin-top: 20px;
+  height: 200px;
+  display: table;
+  width: 100%; 
+  table-layout: fixed; 
+  border-spacing: 30px;
+  background-color: transparent;
+}
+
+.donate {
+  border-radius: 25px;
+
+  display: table-cell;
+  margin-top: 20px;
+  margin-left: 50px;
+  background-color:#071049;
+  width: 86px;
+  height: 480px;
+}
+
+.send {
+  border-radius: 25px;
+  display: table-cell;
+  margin-top: 20px;
+  margin-left: 350px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  background-color:#071049;
+  width: 86px;
+  height: 410px;
+}
+
+.donate form {
+  border-radius: 25px;
+  padding-top: 20px;
+  margin-left: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 90%;
+  height: 450px;
+  background-color: #b4b7c8;
+}
+
+.send form {
+  border-radius: 25px;
+  padding-top: 20px;
+  margin-left: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 90%;
+  height: 450px;
+  background-color: #b4b7c8;
+
+}
+
+.Column {
+  border-radius: 15px;
+  text-align: center;
+  font-size: 30px;
+  display: table-cell;
+  background-color:#e9e8f9; 
+}
+
+
+
+
+
+
+
+
